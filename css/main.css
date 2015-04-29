@@ -1,0 +1,66 @@
+body {
+	font-family: "roboto", sans-serif;
+	letter-spacing: 0.03em;
+}
+
+.stage {
+	position: absolute;
+	width: 600px;
+	height: auto;
+	top: 50px;
+	left: 50%;
+	margin-left: -300px;
+	padding: 20px;
+	background-color: white;
+	border: 2px solid grey;
+	border-radius: 0.25em;
+	box-shadow: 4px 4px 4px #eeeeee;
+}
+
+#item {
+	width: 19em;
+	height: 2em;
+	text-shadow: none;
+	border: 1px solid grey;
+	border-radius: 0.25em;
+	padding-left: 1em;
+	font-weight: 600;
+	font-size: 0.75em;
+}
+
+.add {
+	margin: auto 0.5em;
+	height: 2.3em;
+	width: 12em;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.25em;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
+	font-size: 0.75em;
+}
+
+.list_area {
+	margin: 2em 0.2em;
+	border-top: 1px dashed grey;
+}
+
+.list_control > li {
+	display: inline-block;
+	margin-right: 0.75em;
+}
+
+
+input:focus, button:focus {
+	outline: 0;
+}
+
+button:hover {
+	background-color: #fba400;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
